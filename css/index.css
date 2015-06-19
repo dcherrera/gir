@@ -1,0 +1,166 @@
+/* ---------------------------------------------------- */  
+/* GLOBALS
+/* ---------------------------------------------------- */
+  
+body {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #666666;
+	background: #ffffff;}
+
+.hidden {
+	display: none;}
+
+html, body {
+	margin: 0;
+	padding: 0;}
+
+h1 {
+	margin: 0;
+	padding: 0;}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;}
+
+.center2 {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;}
+
+li {
+	float: left;
+	text-align: center;}
+
+#page-container {
+	width: 80%;
+	margin: auto;}
+
+/* ---------------------------------------------------- */  
+/* MAIN NAV
+/* ---------------------------------------------------- */  
+
+#main-nav {
+    background: #EBD699;
+    height: 55px;}
+
+#main-nav a {
+	display: block;
+	color: #996633;
+	text-decoration: none;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+	width: 85px;}
+
+#main-nav a:hover {
+	color: #db6d16;}
+
+#main-nav h1 {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-top: 3px;
+	padding-right: 15px;}
+
+/* ---------------------------------------------------- */  
+/* NAV3
+/* ---------------------------------------------------- */  
+
+#nav3 {
+	height: 50px;
+	background: #db6d16;}
+
+#nav3 h1 {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-top: 0px;}
+			
+#nav3 a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10;
+	padding-right: 20;
+	width: 120px;}
+
+/* ---------------------------------------------------- */  
+/* Content
+/* ---------------------------------------------------- */ 
+ 
+#content {
+    line-height: 18px;}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;}
+
+#content .padding {
+	padding: 25px;}
+
+/* ---------------------------------------------------- */  
+/* SIDEBAR
+/* ---------------------------------------------------- */  
+
+#sidebar-anon {
+	float: right;
+	width: 30%;
+	line-height: 18px;}
+
+#sidebar-auth {
+	float: left;
+	width: 20%;
+	line-height: 18px;}
+
+#sidebar-auth a {
+	display: block;
+	color: #013ADF;
+	text-decoration: none;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+	width: 85px;}
+
+#sidebar-auth a:hover {
+	color: #db6d16;}
+
+#sidebar-a .padding {
+	padding: 25px;}
+
+/* ---------------------------------------------------- */  
+/* FOOTER
+/* ---------------------------------------------------- */ 
+ 
+#footer {
+	clear: both;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;}
+
+#footer a {
+	color: #c9c9c9;
+	text-decoration: none;}
+
+#footer a:hover {
+	color: #db6d16;}
+
+#footer #altnav {
+	width: 450px;
+	float: right;
+	text-align: right;}

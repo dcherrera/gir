@@ -1,0 +1,34 @@
+This is the readme file for the login script.
+
+this script is pretty straight forward. add the code below to each page to authenticate.
+Specialized authentication code has been created and resides in AuthenticationTemp.php 
+the code below is only goo for authenticating if anyone is logged in where as the file
+above authenticates user permissions.
+
+
+********How to protect your page********
+
+// Include database connection and functions here.
+sec_session_start();
+if(login_check($mysqli) == true) {
+ 
+   // Add your protected page content here!
+ 
+} else {
+   echo 'You are not authorized to access this page, please login. <br/>';
+}
+
+
+$(document).ready(function() {  
+  $('#content').load('../AUTH/home.php');
+  $('#nav3').load('../nav/home_nav.php');
+});
+
+
+
+
+********Test User********
+Username: test_user
+Email: test@example.com
+Password: 6ZaxN2Vzm9NUJT2y
+
